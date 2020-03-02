@@ -1,0 +1,30 @@
+<!--    用法1：放在页面最下面通过属性控制各种状态的显示隐藏-->
+<!--    用法2：把真个页面当作插槽放到l-loadmore中去使用-->
+<!--通过设置设置show显示l-loadmore组件-->
+<l-loadmore show type="{{loadingType}}" end-text="- 杨东星出品 -">
+    <!--    通过设置slot="content"将页面view设置成主插槽-->
+    <view slot="content" class="container">
+        <image class="top-theme" src="{{themeA.entrance_img}}"></image>
+        <swiper class="swiper" indicator-dots indicator-active-color="#157658" autoplay circular>
+            <block wx:for="{{bannerB.items}}">
+                <swiper-item>
+                    <image class="swiper" src="{{item.img}}"></image>
+                </swiper-item>
+            </block>
+        </swiper>
+        <s-category-grid grid="{{gridC}}"></s-category-grid>
+        <image class="activity" src="{{activityD.entrance_img}}"></image>
+        <s-spu-scroll wx:if="{{themeE.online}}"
+                      theme="{{themeE}}"
+                      spu-list="{{themeESpu}}"
+        ></s-spu-scroll>
+        <s-hot-list banner="{{bannerG}}"></s-hot-list>
+        <image class="fashion" src="{{themeH.entrance_img}}"></image>
+        <view class="spu-bottom">
+            <image class="title-spu-bottom" src="/images/home/title@interest.png"></image>
+            <l-water-flow generic:l-water-flow-item="s-spu-preview"></l-water-flow>
+        </view>
+    </view>
+
+</l-loadmore>
+

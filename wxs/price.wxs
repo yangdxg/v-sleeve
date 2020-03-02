@@ -1,0 +1,35 @@
+/**
+ * @作者 yangdxg
+ * @创建时间 2020/2/29 3:48 下午
+ */
+
+function mainPrice(price, discountPrice) {
+    if (!discountPrice) {
+        return {
+            price: price,
+            display: true
+        }
+    }
+    return {
+        price: discountPrice,
+        display: true
+    }
+}
+
+function slashedPrice(price, discountPrice) {
+    if (discountPrice) {
+        return {
+            price: price,
+            display: true
+        }
+    }
+    return {
+        price: null,
+        display: false
+    }
+}
+
+module.exports = {
+    mainPrice: mainPrice,
+    slashedPrice: slashedPrice
+}
