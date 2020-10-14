@@ -175,3 +175,74 @@ app.wxss不会自动应用到自定义组件当中去，因为自定义组件具
  ```
 "onReachBottomDistance": 100
  ```
+ 29. map操作数组
+ ```
+            const newSegments = segments.map(segs => {
+                return segs.join('#')
+            })
+ ```
+还有，filter，find等进行代码简化
+ 30. box-sizing: border-box
+ box-sizing 属性允许您以特定的方式定义匹配某个区域的特定元素。
+ 
+ 例如，假如您需要并排放置两个带边框的框，可通过将 box-sizing 设置为 "border-box"。这可令浏览器呈现出带有指定宽度和高度的框，并把边框和内边距放入框中。
+ 子view设置高度100%=父view高度-内边框，子view高度被父view限制，不设置box-sizing内view100%会等于父view设置的高度，父view高度会等于内view高度+内编剧，从而被撑大
+ 31. 子组件通过事件向父组件的父组件传递参数
+ ```
+        onTap(event) {
+            this.triggerEvent('cellTap', {
+                //子组件向父组件传参通过事件来完成
+                cell: this.properties.cell
+            }, {
+                // 开启冒泡
+                bubbles: true,
+                // 跨越组件边界
+                composed: true
+            })
+        }
+ ```
+父组件的父组件接收
+```
+bind:cellTap="onCellTap"
+```
+32. 子组件发送事件到父组件的父组件传递事件，父组件可以拦截并添加参数发送给父组件的父组件
+```
+接31 父组件中
+          onCellTap(){
+            this.triggerEvent('cellTap', {
+                //子组件向父组件传参通过事件来完成
+                cell: this.properties.cell，
+                y:123
+            }, {
+                // 开启冒泡
+                bubbles: true,
+                // 跨越组件边界
+                composed: true
+            })
+          }
+```
+父组件中的父组件接收
+```
+        onCellTap(event) {
+            // 拿到具体点击的cell
+            const cell = event.detail.cell
+            const y = event.detail.y
+            const judger = this.data.judger
+            judger.judge(cell)
+            this.setData({
+                fences: judger.fenceGroup.fences
+            })
+        }
+```
+33. js引用类型
+```
+    const a = {c:1}
+    const b = a
+    b.c = 2
+    a.c 也是2
+```
+小程序通过wxml传递对象，会生成一个新的对象，改变数据不会影响之前的数据
+```
+经过渲染层wxml的对象会保留对象的参数，但不会保留方法，所以不能直接用对象.方法
+```
+34. css伪类实现文本前边的圆点

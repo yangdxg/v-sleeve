@@ -1,0 +1,43 @@
+/* components/cell/index.wxss */
+.container {
+    height: 60rpx;
+    border: 2rpx solid #333333;
+    box-sizing: border-box;
+    padding: 2rpx;
+    
+}
+
+/*正常可选状态-内边框*/
+.inner-container {
+    height: 100%;
+    padding-left: 15rpx;
+    padding-right: 15rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    font-size: 24rpx;
+}
+
+.inner-container image {
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 12rpx;
+}
+/*选中状态--外边框*/
+.s-outer {
+    border: 2rpx solid #157658 !important;
+}
+
+/*选中状态--内边框*/
+.s-inner {
+    background-color: #157658 !important;
+    color: white;
+    font-size: 24rpx;
+}
+
+/*禁用状态*/
+.forbidden {
+    border: 2rpx dashed #bbbbbb;
+    color: #bbbbbb;
+}

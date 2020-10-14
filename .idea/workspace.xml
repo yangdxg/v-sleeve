@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df5f5d94-4ef1-4eb6-a029-ff27ad37f5ac" name="Default Changelist" comment="" />
+    <list default="true" id="df5f5d94-4ef1-4eb6-a029-ff27ad37f5ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/spu-scroll/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/spu-scroll/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/components/spu-scroll/index.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/activity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/banner.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/banner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/category.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/spu-paging.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/spu-paging.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note/question.md" beforeDir="false" afterPath="$PROJECT_DIR$/note/question.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/detail/detail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/detail/detail.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/util.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -22,6 +48,9 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1WTTaARoLuvTJB9aC3I7vdO4yM7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
   </component>
@@ -33,17 +62,20 @@
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/home" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/tabbar" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="IntelliLang.Configuration" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/tabbar" />
       <recent name="$PROJECT_DIR$/images/home" />
       <recent name="$PROJECT_DIR$/pages/index" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/models" />
       <recent name="$PROJECT_DIR$/note" />
     </key>
   </component>
@@ -58,6 +90,7 @@
         </serviceView>
       </list>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -91,7 +124,25 @@
       <workItem from="1582589055582" duration="13444000" />
       <workItem from="1582852579195" duration="2383000" />
       <workItem from="1582875668342" duration="7955000" />
-      <workItem from="1582975060752" duration="7849000" />
+      <workItem from="1582975060752" duration="8344000" />
+      <workItem from="1583130239719" duration="5766000" />
+      <workItem from="1583223011947" duration="80000" />
+      <workItem from="1583224689902" duration="18659000" />
+      <workItem from="1583743600706" duration="1455000" />
+      <workItem from="1583976388453" duration="15723000" />
+      <workItem from="1584146457765" duration="4476000" />
+      <workItem from="1584233943323" duration="4036000" />
+      <workItem from="1584322762871" duration="33018000" />
+      <workItem from="1584515537278" duration="47945000" />
+      <workItem from="1585291318226" duration="1119000" />
+      <workItem from="1586478611348" duration="443000" />
+      <workItem from="1587107194972" duration="7000" />
+      <workItem from="1587366557406" duration="366000" />
+      <workItem from="1589157890808" duration="896000" />
+      <workItem from="1589356672124" duration="2785000" />
+      <workItem from="1589851368292" duration="1610000" />
+      <workItem from="1591754044936" duration="2237000" />
+      <workItem from="1591927168466" duration="1048000" />
     </task>
     <servers />
   </component>
@@ -99,35 +150,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2267" y="374" key="#Inspections" timestamp="1579239089901">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2267" y="374" key="#Inspections/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1579239089901" />
-    <state x="2570" y="601" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579399890093">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2570" y="601" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1579399890093" />
-    <state x="2282" y="757" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1579239922956">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2282" y="757" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1579239922956" />
-    <state x="2170" y="380" width="667" height="653" key="EditFileWatcherDialog" timestamp="1579333647120">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state x="2170" y="380" width="667" height="653" key="EditFileWatcherDialog/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1579333647120" />
-    <state x="199" y="90" key="SettingsEditor" timestamp="1582612598507">
+    <state x="199" y="90" key="SettingsEditor" timestamp="1584149099424">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="458" y="178" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1582592271130" />
-    <state x="2274" y="282" key="SettingsEditor/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1579574096845" />
-    <state x="199" y="90" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1582612598507" />
-    <state x="297" y="163" width="889" height="468" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1582589051908">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="297" y="163" width="889" height="468" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.23.1440.877@0.23.1440.877" timestamp="1582589051908" />
-    <state x="2373" y="404" width="670" height="676" key="search.everywhere.popup" timestamp="1579310374533">
+    <state x="199" y="90" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1584149099424" />
+    <state x="2602" y="113" width="758" height="801" key="find.popup" timestamp="1584674871340">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="2373" y="404" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1579310374533" />
+    <state x="2602" y="113" width="758" height="801" key="find.popup/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584674871340" />
+    <state x="933" y="404" width="670" height="676" key="search.everywhere.popup" timestamp="1591927350315">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2373" y="404" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.23.1920.1057@1440.23.1920.1057" timestamp="1584674928013" />
+    <state x="933" y="404" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057@0.23.1920.1057" timestamp="1591927350315" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components/realm/index.js</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

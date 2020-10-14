@@ -1,0 +1,20 @@
+/* components/counter/index.wxss */
+.all-background {
+    /*透明的*/
+    background-color: transparent !important;
+
+}
+
+.container {
+    border: 3rpx solid #157685 !important;
+    height: 48rpx !important;
+}
+
+.input-size {
+    min-height: 48rpx !important;
+    line-height: 48rpx;
+}
+
+.font-color {
+    color: #157685
+}

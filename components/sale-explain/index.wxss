@@ -1,0 +1,30 @@
+/* components/sale-explain/index.wxss */
+.container {
+    width: 710rpx;
+    display: flex;
+    flex-direction: column;
+    border: 2rpx dashed #dcebe6;
+    padding: 5rpx 25rpx;
+    background-color: white;
+    box-sizing: border-box
+}
+
+.inner {
+    height: 50rpx;
+    border-bottom: 2rpx solid #dcebe6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 24rpx;
+    color: #333333;
+}
+
+/*css伪类实现文本前面的点*/
+.inner text:before {
+    content: '●';
+    margin-right: 26rpx;
+}
+
+.container > .inner:last-child {
+    border: none;
+}

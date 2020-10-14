@@ -1,2 +1,37 @@
-<!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<view class="container">
+    <swiper class="top"
+            autoplay
+            indicator-dots>
+        <block wx:for="{{spu.spu_img_list}}">
+            <swiper-item>
+                <image class="top" mode="aspectFill" src="{{item.img}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+    <s-spu-description spu="{{spu}}"></s-spu-description>
+    <view bind:tap="onAddToCart" class="sku-pending" wx:if="{{!specs.noSpec}}">
+        <view class="specs">
+            <text wx:if="{{!specs.skuInTack}}">请选择：</text>
+            <text wx:else>已选：</text>
+            <text wx:if="{{!specs.skuInTack}}">{{specs.missingKeys}}</text>
+            <text wx:else>{{specs.currentValues}}</text>
+        </view>
+        <l-icon name="right" size="24" color="#157658"></l-icon>
+    </view>
+    <view class="explain">
+        <s-sale-explain texts="{{saleExplain}}"></s-sale-explain>
+    </view>
+    <view class="detail-img-container">
+        <block wx:for="{{spu.spu_detail_img_list}}" wx:key="*this">
+            <image class="detail-img" mode="widthFix" src="{{item.img}}"></image>
+        </block>
+    </view>
+</view>
+<l-popup content-align="bottom" show="{{showRealm}}">
+    <s-ream bind:specchange="onSpecChange" spu="{{spu}}" orderWay="{{orderWay}}"></s-ream>
+</l-popup>
+<s-tab class="tabbar" bind:gotohome="onGoToHome"
+       bind:gotocart="onGoToCart"
+       bind:addtocart="onAddToCart"
+       bind:buy="onBuy">
+</s-tab>

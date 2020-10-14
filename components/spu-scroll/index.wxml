@@ -1,9 +1,10 @@
-<wxs src="../../miniprogram_npm/lin-ui/filter/string.wxs" module="s"></wxs>
+ <wxs src="../../miniprogram_npm/lin-ui/filter/string.wxs" module="s"></wxs>
 <wxs src="../../wxs/price.wxs" module="p"></wxs>
 
 <view class="container">
     <image class="title" src="{{theme.title_img}}"></image>
-    <scroll-view scroll-x enable-flex class="scroll">
+    <scroll-view scroll-x class="scroll-view">
+    <view class="inner">
         <block wx:for="{{spuList}}" wx:key="index">
             <view class="spu-container" hover-class="small-hover" hover-time="300">
                 <image class="spu-img" src="{{item.img}}"></image>
@@ -16,6 +17,8 @@
                          l-value-class="price-value"></l-price>
             </view>
         </block>
+    </view>
+
     </scroll-view>
 </view>
 <!--使用lin-ui中的wxs截取字符串-->

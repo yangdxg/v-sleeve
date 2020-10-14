@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "s-ream": "/components/realm/index",
+    "s-tab": "/components/tab-bar/index",
+    "s-spu-description": "/components/spu-description/index",
+    "s-sale-explain": "/components/sale-explain/index"
+  }
 }
